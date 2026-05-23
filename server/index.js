@@ -32,6 +32,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(80, () => {
+server.listen(3000, () => {
   console.log("Server running on http://notes-code.ru");
 });
